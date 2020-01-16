@@ -15,8 +15,8 @@ public class FindCommentDAO {
 		// id,name,commentを格納するリスト
 		List<Board> list = new ArrayList<>();
 
-		final String jdbcId = "root";
-		final String jdbcPass = "UCoRhgOiI3BO";
+		final String jdbcId = "id";
+		final String jdbcPass = "pass";
 		final String jdbcUrl = "jdbc:mysql://localhost:3306/board_db?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=JST";
 
 		Connection con = null;
